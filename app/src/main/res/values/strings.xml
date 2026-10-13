@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Xylophone</string>
+    <string name="do_label">Do</string>
+    <string name="re_label">Re</string>
+    <string name="mi_label">Mi</string>
+    <string name="fa_label">Fa</string>
+    <string name="sol_label">Sol</string>
+    <string name="la_label">La</string>
+    <string name="si_label">Si</string>
+</resources>

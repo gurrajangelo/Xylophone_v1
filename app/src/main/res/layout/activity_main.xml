@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/Do"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/do_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/red"
+            android:onClick="playDo"
+            />
+
+        <Button
+            android:id="@+id/Re"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/re_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/orange"
+            android:onClick="playRe"
+            />
+
+        <Button
+            android:id="@+id/Mi"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mi_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/yellow"
+            android:onClick="playMi"
+            />
+
+        <Button
+            android:id="@+id/Fa"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/green"
+            android:onClick="playFa"
+            />
+
+        <Button
+            android:id="@+id/Sol"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sol_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/turquoise"
+            android:onClick="playSol"
+            />
+
+        <Button
+            android:id="@+id/La"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/la_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/blue"
+            android:onClick="playLa"
+            />
+
+        <Button
+            android:id="@+id/Si"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/si_label"
+            android:textSize="30sp"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/purple"
+            android:onClick="playSi"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
